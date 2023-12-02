@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Duplicate File Checker - Results</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Duplicate File Checker - Results</h1>
+    {% if duplicates %}
+        <h2>{{title}}:</h2>
+        <table>
+            <tr>
+                <th>Duplicate File Location</th>
+                <th>Original File Location</th>
+            </tr>
+            {% for duplicate in duplicates %}
+                <tr>
+                    <td>{{ duplicate[0] }}</td>
+                    <td>{{ duplicate[1] }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <p>No duplicate files found.</p>
+    {% endif %}
+</body>
+</html>

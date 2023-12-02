@@ -1,0 +1,585 @@
+/* Global styles */
+
+@font-face {
+    font-family: "TradeGothicLT";
+    src: url(//cdn.shopify.com/s/files/1/0076/4156/3234/t/277/assets/TradeGothicLTBoldItalic.ttf?v=141561432956417379791685715781) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DIN";
+    src: url(//cdn.shopify.com/s/files/1/0076/4156/3234/t/277/assets/DIN2014Bold.ttf?v=80527590933812524191685715698) format("truetype");
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: #faf9f8;
+    margin: 0;
+    padding: 0;
+    height: 100vh
+  }
+
+ .Anouncement
+ {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: teal;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    font-size: 15px;
+    align-items: center;
+    height: 4%;
+ } 
+
+ .logo{
+    color:teal;
+    margin-right: 13px;
+    font-size: 60px;
+ }
+  
+.Navbar
+{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items:center;
+    margin: 0 auto;
+   height: 12%;
+} 
+.TitleContainer{
+    flex: 1;
+    display: flex;
+   align-items: center;
+   cursor: pointer;
+   padding: 5px;
+   width: 100%;
+} 
+
+.Title{
+    font-family: DIN;
+    font-size: 35px;
+    color: #474444;
+}
+
+.language
+{
+    
+    flex: 1.5;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.lantitle{
+    flex: 1;
+    color: #474444;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 15px;
+ cursor: pointer;
+ height: 100%;
+align-items: center;
+text-align: center;
+justify-content: center;
+margin-top: 1%;
+}
+
+.lantitle:hover
+{
+    background-color:#f8e9e3 ;
+}
+
+
+.SearchContainer
+{
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 5px;
+  border-radius: 3px;
+  border: 1px #d6d2d2 solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SearchTitle
+{
+
+ font-weight: 100;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ margin-top: 5%;
+ font-weight: 500;
+ font-size: 25px;
+}
+
+.SearchBar{
+
+    display: flex;
+  margin-top: 5%;
+  background-color: teal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 70%;
+  justify-content: space-between;
+  font-size: 15px;
+  border-radius: 5px;
+  height: 60px;
+}
+
+.description 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5%;
+    padding-top: 0%;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.InputBar
+{
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  align-items: center;
+width: 100%;
+  justify-content: space-between;
+
+}
+.Bar{
+    flex:6;
+    height: 100%;
+    align-items: center;
+    background-color: white;
+    margin-top: 1%;
+    
+}
+
+.Bar input{
+  align-items: center;
+ width: 100%;
+ font-size: 20px;
+ height: 100%;
+padding-left: 20px;
+margin-top: 2px;
+ height: 100%;
+
+ justify-content: center;
+ 
+}
+
+input[type="file"] {
+  transform: translateX(30%);
+  transform: translateY(15%);
+}
+
+.BarTitle
+{
+    flex: 2;
+    margin-left: 10%;
+    font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.about
+{
+    flex: 1;
+    color: #474444;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 15px;
+ cursor: pointer;
+ height: 100%;
+align-items: center;
+text-align: center;
+justify-content: center;
+margin-top: 1%;
+}
+
+.about:hover
+{
+    background-color:#f8e9e3 ;
+}
+
+.feature
+{
+    flex: 1;
+    color: #474444;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 15px;
+ cursor: pointer;
+ height: 100%;
+align-items: center;
+text-align: center;
+justify-content: center;
+margin-top: 1%;
+}
+
+.feature:hover
+{
+    background-color:#f8e9e3 ;
+}
+
+.baritem
+{
+   padding: 7px;
+}
+
+
+.DescriptionBar
+{
+ width: 80%;
+ margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+ background: linear-gradient(to right, transparent, teal, transparent) bottom / 100% 1px no-repeat;
+  background-clip: content-box;
+
+}
+
+.DescriptionTitle
+{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ margin-top:3%;
+ font-weight: 600;
+ font-size: 25px;
+}
+
+.Descriptions
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2%;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+.InstructionBar
+{
+   
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 2%;
+   justify-content: center;
+     background-clip: content-box;
+}
+
+
+.LeftBar
+{
+}
+
+
+.LeftTitile
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2%;
+    font-size: 17px;
+}
+
+.LeftTitile i{
+    padding-right: 2%;
+    }
+
+
+.RightBar
+{
+
+}
+
+.RightTitle
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2%;
+    font-size: 17px;
+}
+
+.RightTitle i{
+padding-right: 2%;
+}
+
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+.logoBar{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 2%;
+   justify-content: center;
+     background-clip: content-box;
+     background: linear-gradient(to right, transparent, teal, transparent) bottom / 100% 1px no-repeat;
+}
+
+.logoBar1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.LogoGif
+{
+ font-size: 80px;
+ color: #474444;
+}
+
+.logoTitle
+{
+    font-family: DIN;
+    font-weight: 600;
+    font-size: 25px;
+    color: teal;
+}
+
+.logoDesc{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5%;
+}
+
+
+footer
+{
+    height: 20%;
+    border-top: 1px #d6d2d2 solid;
+    display: flex;
+    align-items: center;
+
+}
+
+.left{
+  flex: 1;  
+  padding-left: 5%;
+  align-items: center;
+   cursor: pointer;
+}
+
+.companylogo
+{
+   color:teal;
+   font-size: 50px;
+}
+
+.companyTitle{
+    font-family: DIN;
+    font-size: 30px;
+}
+
+.desc{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right
+{
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+
+}
+
+.item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: teal;
+    text-decoration: underline;
+}
+
+.container{
+  margin-bottom: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width:90%;
+    overflow: auto;
+}
+
+.deleterow
+{
+    background-color: rgb(252, 100, 100);
+    color: white;
+    padding: 4%;
+    border-radius: 3px;
+    border:2px solid red;
+    cursor: pointer;
+}
+
+.deleterow:hover{
+    background-color: rgb(245, 49, 49);
+}
+
+
+  
+  .delete {
+    cursor: pointer;
+    color: #FFF;
+    display: block;
+    text-align: center;
+    text-indent: 20px;
+    padding: 0 10px;
+    border-radius: 3px;
+    line-height: 35px;
+    text-decoration: none;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    box-shadow: 0px 0px 1px #213741;
+    background: #f34642 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBkPSJNNDI0LjU2MiA3OC4wMjJ2NDAuMDMySDg3LjQzOFY3OC4wMjJoOTQuOTM4YzE1LjQ2NCAwIDI4LTEyLjU0NiAyOC0yOC4wMjJoOTEuMjUgYzAgMTUuNSAxMi41IDI4IDI4IDI4LjAyMkg0MjQuNTYyeiBNNDA2LjMzNCAxNDguMDc5VjQ2MkgxMDUuNjY2VjE0OC4wNzlINDA2LjMzNHogTTE5Ny4zMzMgMjEwLjUgYzAtOC4yOTEtNi43MTYtMTUuMDEyLTE1LTE1LjAxMnMtMTUgNi43MjEtMTUgMTUuMDEydjE5MC4xNTNjMCA4LjMgNi43IDE1IDE1IDE1LjAxMnMxNS02LjcyMSAxNS0xNS4wMTJWMjEwLjQ2MnogTTI3MSAyMTAuNDYyYzAtOC4yOTEtNi43MTYtMTUuMDEyLTE1LTE1LjAxMnMtMTUgNi43MjEtMTUgMTUuMDEydjE5MC4xNTNjMCA4LjMgNi43IDE1IDE1IDE1LjAxMnMxNS02LjcyMSAxNS0xNS4wMTIgVjIxMC40NjJ6IE0zNDQuNjY3IDIxMC40NjJjMC04LjI5MS02LjcxNi0xNS4wMTItMTUtMTUuMDEycy0xNSA2LjcyMS0xNSAxNS4wMTJ2MTkwLjE1M2MwIDguMyA2LjcgMTUgMTUgMTUgczE1LTYuNzIxIDE1LTE1LjAxMlYyMTAuNDYyeiIgc3R5bGU9ImZpbGw6ICNGRkY7Ii8+PC9zdmc+") no-repeat 10px center;
+    background-size: 17px;
+    position: relative;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -o-transition: background 0.3s;
+    transition: background 0.3s;
+  }
+  .delete:hover {
+    background-color: #713031;
+  }
+  .delete.selected {
+    background-color: #713031;
+  }
+  .delete.selected .deleteBox {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacityIE)";
+    filter: alpha(opacity=100);
+    top: -110px;
+    width: 275px;
+    height: 130px;
+    overflow: visible;
+    -webkit-transition: opacity 0.3s, top 0.3s, width 0s, height 0s;
+    -webkit-transition-delay: 0s, 0s, 0s, 0s;
+    -moz-transition: opacity 0.3s, top 0.3s, width 0s 0s, height 0s 0s;
+    -o-transition: opacity 0.3s, top 0.3s, width 0s 0s, height 0s 0s;
+    transition: opacity 0.3s, top 0.3s, width 0s 0s, height 0s 0s;
+  }
+  .delete .deleteBox {
+    position: fixed;
+    top: 50% !important;
+    left: 50% !important;
+    margin-left: -137px;
+    overflow: hidden;
+    background: #1C242B;
+    width: 0px;
+    height: 0px;
+    border-radius: 5px;
+    text-indent: 0px;
+    cursor: default;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacityIE)";
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.3s, top 0.3s, width 0s, height 0s !important;
+    -webkit-transition-delay: 0s, 0s, 0.3s, 0.3s !important;
+    -moz-transition: opacity 0.3s, top 0.3s, width 0s 0.3s, height 0s 0.3s !important;
+    -o-transition: opacity 0.3s, top 0.3s, width 0s 0.3s, height 0s 0.3s !important;
+    transition: opacity 0.3s, top 0.3s, width 0s 0.3s, height 0s 0.3s !important;
+    z-index: 9999;
+    overflow: visible !important
+  }
+  
+  .delete .deleteBox p {
+    margin: 0px 0 0px;
+  }
+  .delete .deleteBox span {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    margin: 0 10px;
+    color: #FFF;
+    border-radius: 3px;
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -o-transition: background 0.3s;
+    transition: background 0.3s;
+  }
+  .delete .deleteBox span.confirm {
+    background: #38B87C;
+  }
+  .delete .deleteBox span.confirm:hover {
+    background: #2c9162;
+  }
+  .delete .deleteBox span.cancel {
+    background: #696F73;
+  }
+  .delete .deleteBox span.cancel:hover {
+    background: #515558;
+  }
+  .delete .deleteBox:before {
+    content: 'Deleting...';
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+    text-align: center;
+    line-height: 60px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacityIE)";
+    filter: alpha(opacity=0);
+    border-radius: 5px;
+    background: #1c242b url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSJ3aGl0ZSI+CiAgPGNpcmNsZSB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4IDApIiBjeD0iMCIgY3k9IjE2IiByPSIwIj4gCiAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJyIiB2YWx1ZXM9IjA7IDQ7IDA7IDAiIGR1cj0iMS4ycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIwIgogICAgICBrZXl0aW1lcz0iMDswLjI7MC43OzEiIGtleVNwbGluZXM9IjAuMiAwLjIgMC40IDAuODswLjIgMC42IDAuNCAwLjg7MC4yIDAuNiAwLjQgMC44IiBjYWxjTW9kZT0ic3BsaW5lIiAvPgogIDwvY2lyY2xlPgogIDxjaXJjbGUgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTYgMCkiIGN4PSIwIiBjeT0iMTYiIHI9IjAiPiAKICAgIDxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InIiIHZhbHVlcz0iMDsgNDsgMDsgMCIgZHVyPSIxLjJzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjAuMyIKICAgICAga2V5dGltZXM9IjA7MC4yOzAuNzsxIiBrZXlTcGxpbmVzPSIwLjIgMC4yIDAuNCAwLjg7MC4yIDAuNiAwLjQgMC44OzAuMiAwLjYgMC40IDAuOCIgY2FsY01vZGU9InNwbGluZSIgLz4KICA8L2NpcmNsZT4KICA8Y2lyY2xlIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI0IDApIiBjeD0iMCIgY3k9IjE2IiByPSIwIj4gCiAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJyIiB2YWx1ZXM9IjA7IDQ7IDA7IDAiIGR1cj0iMS4ycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIwLjYiCiAgICAgIGtleXRpbWVzPSIwOzAuMjswLjc7MSIga2V5U3BsaW5lcz0iMC4yIDAuMiAwLjQgMC44OzAuMiAwLjYgMC40IDAuODswLjIgMC42IDAuNCAwLjgiIGNhbGNNb2RlPSJzcGxpbmUiIC8+CiAgPC9jaXJjbGU+Cjwvc3ZnPg==") no-repeat center 50px;
+    -webkit-transition: opacity 0.3s, top 0.3s, left 0.3s;
+    -moz-transition: opacity 0.3s, top 0.3s, left 0.3s;
+    -o-transition: opacity 0.3s, top 0.3s, left 0.3s;
+    transition: opacity 0.3s, top 0.3s, left 0.3s;
+  }
+  .delete .deleteBox.loading:before {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacityIE)";
+    filter: alpha(opacity=100);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+  }
+  .delete .deleteBox.deleted:before {
+    content: 'Deleted.';
+    background: #1c242b url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoKCSB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KCjxwb2x5Z29uIGlkPSJjaGVjay1tYXJrLTctaWNvbiIgcG9pbnRzPSI1MCwyNDcuNzg3IDc3LjA5LDIxOS44MzMgMjA5Ljg1OSwyOTkuMjIyIDQzOC43ODcsODEuMjQ1IDQ2MiwxMDQuNSAyMTkuODYzLDQzMC43NTUgIiBmaWxsPSIjRkZGIi8+Cgo8L3N2Zz4=") no-repeat center 55px;
+    background-size: 20px 20px;
+  }
+
+  .duplicate-file-cell {
+    white-space: normal !important;
+  word-wrap: break-word !important;
+}
+
+
+
+.blur-effect {
+  position: fixed;
+}

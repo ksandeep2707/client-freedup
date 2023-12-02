@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Freedup</title>
+  <link rel='stylesheet' href='https://nightly.datatables.net/css/jquery.dataTables.css'>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/jquery.dataTables.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/prefixfree.min.js') }}"></script>
+  <script src="https://use.fontawesome.com/e4267a94c8.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+
+    <section id="section-id"></section>
+  <div class="Anouncement">
+    Welcome to FreedUp! Streamline your digital life, eliminate duplicates.
+  </div>
+   <div class="Navbar">
+       <div class="TitleContainer">
+            <div class="logo">
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            </div>
+            <div class="Title">FREEDUP</div>
+        </div>
+              
+            <div class="language">
+                <div class="feature">
+                    <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+                    <div class="baritem">Features</div> 
+                  </div>
+                  <div class="about">
+                    <i class="fa fa-info" aria-hidden="true"></i>
+                    <div class="baritem">About Us</div>
+                  </div>
+                
+                <div class="lantitle">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <div class="baritem">English </div>
+                </div>
+            </div>
+   </div>
+   <div class="SearchContainer">
+          <div class="SearchTitle">
+              FreedUp:Duplicate files detected & deleted.
+          </div>
+          <div class="SearchBar">
+             <div class="InputBar">
+                  <div class="Bar">
+                    <input type="file" id="pathInput" placeholder="Select a folder..." multiple >
+                  </div>
+                  <div class="BarTitle">
+                    Check 
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                  </div>
+             </div>
+           
+          </div>
+          <div class="description">
+            <p>FreedUp: Simplify your files.Find and delete duplicate files to free up storage space and keep your digital life organized.</p>
+          </div>
+
+          <div class="container">
+     
+            <table id="example" class="display nowrap" width="100%">
+              <!-- <thead>
+                <tr>
+                    <th> Delete</th>
+                    <th>Duplicate File Full Path</th>
+                    <th>Original File Full Path</th>
+                    <th>Date Of Creation</th>  
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="delete"> Delete</span></td>
+                  <td>Tiger Nixon</td>
+                  <td>System Architect</td>
+                  <td>Edinburgh</td>
+                </tr>
+                <tr>
+                  <td><span class="delete"> Delete</span></td>
+                  <td>Tiger Nixon</td>
+                  <td>System Architect</td>
+                  <td>Edinburgh</td>
+                </tr>
+              </tbody> -->
+            </table> 
+          </div>
+   </div>
+     
+     <div class="DescriptionBar">
+        <div class="DescriptionTitle">
+            FreedUp: Detecting and Deleting Duplicate Files
+        </div>
+        <div class="Descriptions">
+            FreedUp is a powerful tool designed to streamline your storage by efficiently detecting and eliminating duplicate files. With its advanced algorithms, it quickly scans your system, identifying identical files and freeing up valuable disk space. By removing duplicates, FreedUp ensures a more organized and optimized storage environment, allowing you to reclaim storage space and improve system performance.
+        </div>
+     </div>
+
+     <div class="logoBar">
+        <div class="logoBar1">
+                <div class="LogoGif"><i class="fa fa-gift" aria-hidden="true"></i></div>
+                <div class="logoTitle">Free Duplicate Detection</div>
+                <div class="logoDesc">Detect Duplicate free of Cost</div>
+        </div>
+        <div class="logoBar1">
+            <div class="LogoGif"><i class="fa fa-television" aria-hidden="true"></i></div>
+            <div class="logoTitle">User-friendly interface</div>
+             <div class="logoDesc">User-friendly interface for easy navigation.</div>
+        </div>
+        <div class="logoBar1">
+             <div class="LogoGif"><i class="fa fa-check-square-o" aria-hidden="true"></i></div>
+             <div class="logoTitle">Easy Duplicate Deletions</div>
+             <div class="logoDesc">Secure deletion of duplicate files.</div>
+        </div>
+ </div>
+
+        <div class="InstructionBar">
+            <div class="LeftBar">
+                   <div class="LeftTitile"><i class="fa fa-hand-o-right" aria-hidden="true"></i>FreedUp Instructions</div>
+                    <ol>
+                      <li>Explore the desired folder and copy its full path.</li>
+                      <li>Paste the path and click "Check" to uncover duplicates.</li>
+                      <li>Remove duplicates with a click using the "Delete" button.</li>
+                    </ol>
+            </div>
+            <div class="RightBar">
+                   <div class="RightTitle"><i class="fa fa-hand-o-right" aria-hidden="true"></i>FreedUp Features</div>
+                   <ul>
+                    <li>Unlimited file detection and management.</li>
+                    <li>User-friendly interface for easy navigation.</li>
+                    <li>Accurate and efficient duplicate detection.</li>
+                    <li>Secure deletion of duplicate files.</li>
+                  </ul>
+            </div>
+        </div>
+        
+  <footer>
+           <div class="left">
+                  <div class="companylogo"><i class="fa fa-youtube-play" aria-hidden="true"></i></div>
+                   <div class="companyTitle">FREEDUP</div>
+                   <div class="desc">FreedUp © 2023</div>
+           </div>
+           <div class="right">
+                <div class="item"><a href="#section-id">About Us </a> </div>
+                <div class="item"><a href="#section-id">Contact Us</a></div>
+                <div class="item"><a href="#section-id">Privacy Policy</a></div>
+                <div class="item"><a href="#section-id">Terms of Service</a></div>
+                <div class="item"><a href="#section-id">Scholarship</a></div>
+           </div>
+  </footer>
+  
+ 
+</body>
+</html>
